@@ -1,0 +1,14 @@
+{
+	"author_name": "Emile Fraser",
+    "email": "efraser25@gmail.com",
+    "github_username": "emilefraser",
+    "project_name": "Packer Ubuntu Image",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description": "Packer packaged Ubuntu images for k8",
+	"module_name": "pyrobuntu",
+	"module_slug": "{{ cookiecutter.module_name.lower().replace(' ', '_').replace('-', '_') }}",
+	"module_distro": "Ubuntuz",
+    "release_date": "{% now 'local' %}",
+    "version": "0.1.0",
+    "open_source_license": "MIT license"
+}
