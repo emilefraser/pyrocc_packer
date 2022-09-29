@@ -11,6 +11,7 @@ rm -rf .git
 git init
 git remote add origin ${REPO_URL}
 git remote -v
+git pull origin main
 git add *
 git commit -m "init commit from pyrocc_packer cookiecutter template"
 git push --set-upstream origin main
