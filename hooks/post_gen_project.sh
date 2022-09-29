@@ -4,8 +4,9 @@ REPO_GH=git@github.com
 REPO_USER={{ cookiecutter.github_username }}
 REPO_NAME={{ cookiecutter.project_slug }}
 REPO_URL=${REPO_GH}:${REPO_USER}/${REPO_NAME}
+REPO_LOCAL_PATH=/home/pyromaniac/repos/pyrocc/test/${REPO_NAME}
 
-cd ${REPO_NAME}
+cd ${REPO_LOCAL_PATH}
 rm -rf .git
 
 git remote add origin ${REPO_URL}
