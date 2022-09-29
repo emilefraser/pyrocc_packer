@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # github check
-REPO_URL=git@github.com:emilefraser/{{ cookiecutter.project_slug }}
+REPO_URL=https://github.com/emilefraser/{{ cookiecutter.project_slug }}
 echo "REPO_URL to check: ${REPO_URL}"
 
 if [ "$(git ls-remote $REPO_URL 2> /dev/null)" ]
