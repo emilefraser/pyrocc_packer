@@ -17,5 +17,5 @@ then
 	echo "${REPO_NAME} already exists"
 else
 	echo "${REPO_NAME} does NOT exist"
-	gh repo --public --license ${REPO_LICENCE} --gitignore ${REPO_TYPE} ${REPO_NAME}
+	gh repo create --public --license ${REPO_LICENCE} --gitignore ${REPO_TYPE} ${REPO_NAME}
 fi
